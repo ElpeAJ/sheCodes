@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banku and Okro Stew</title>
+    <style>
+      body {
+        background: linear-gradient(180deg, grey, beige, grey);
+        margin: 30px 60px;
+        font-family: Helvetica, "Cerebri Sans", Arial, sans-serif;
+      }
+
+      .container {
+        max-width: 67vw;
+        margin: 0 auto;
+        padding: 30px 60px;
+        background: linear-gradient(
+          125deg,
+          #ff0000a3,
+          rgb(255, 255, 0),
+          #015c01
+        );
+        border-radius: 15px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+      }
+
+      h1 {
+        background-image: linear-gradient(130deg, #737382, #3b3232, #737382);
+        text-align: center;
+        color: white;
+        letter-spacing: 1px;
+        margin: 0px 90px;
+        padding: 10px 0px;
+        flex-wrap: wrap;
+      }
+      h2 {
+        text-align: center;
+        color: white;
+      }
+
+      h5 {
+        text-align: center;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0px;
+        text-align: center;
+      }
+
+      ul li {
+        display: inline;
+        margin: 5px 15px;
+      }
+
+      a {
+        text-decoration: none;
+        font-weight: 200;
+      }
+
+      .socialMedia {
+        padding: 10px;
+        border: 1px solid rgb(14, 110, 51);
+        border-radius: 50%;
+        background-color: white;
+      }
+
+      food-section {
+        flex-wrap: wrap;
+      }
+
+      .food {
+        width: 220px;
+        margin: 15px 25px;
+        border-radius: 50%;
+      }
+
+      .food:hover {
+        transition: all 1.5s ease-in-out;
+        cursor: pointer;
+        background-color: rgb(177, 184, 0);
+        border: 3px solid rgb(219, 213, 213);
+        transform: scale(1.2);
+      }
+
+      p {
+        line-height: 1.8;
+        font-size: 20px;
+        color: rgb(56, 54, 54);
+        text-align: center;
+      }
+
+      ol li {
+        line-height: 1.8;
+        font-size: 20px;
+        color: rgb(56, 54, 54);
+        background-color: beige;
+        border-radius: 8px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+      }
+
+      .banku {
+        text-align: justify;
+      }
+
+      button {
+        padding: 20px 40px;
+        text-transform: uppercase;
+        text-align: center;
+        border-radius: 8px;
+        box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+        /*display: block;
+        margin: 20px auto;*/
+        border: none;
+        font-weight: 700;
+        letter-spacing: 2.5px;
+      }
+
+      button:hover {
+        background: linear-gradient(
+          -130deg,
+          #042ccba3,
+          rgb(255, 255, 255),
+          #042ccba3
+        );
+        transition: all 500ms ease-in-out;
+      }
+
+      .updates {
+        color: rgb(26, 24, 24);
+      }
+
+      .sign-up {
+        text-align: center;
+      }
+
+      .text {
+        color: red;
+        font-weight: 700;
+        font-size: 21px;
+      }
+
+      .author {
+        width: 250px;
+        display: block;
+        margin: 35px auto;
+        padding: 5px;
+        border-radius: 50%;
+        background-color: rgb(219, 213, 213);
+        border: 3px solid rgb(177, 184, 0);
+      }
+
+      .author:hover {
+        transition: all 1.5s ease-in-out;
+        background-color: rgb(177, 184, 0);
+        border: 3px solid rgb(219, 213, 213);
+        transform: scale(1.2);
+      }
+
+      .regards {
+        border: 2px solid bisque;
+        background: white;
+        margin: 0px 60px;
+        padding: 10px 0px;
+      }
+
+      h6 {
+        text-align: center;
+        font-size: 13px;
+        letter-spacing: 2px;
+        color: rgb(44, 36, 36);
+        padding-top: 25px;
+        margin: 0px;
+      }
+
+      .sheCodesLogo {
+        display: block;
+        width: 120px;
+        margin: 3px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Banku to the World!!</h1>
+      <h2>Created by Elpedia J. Arthur</h2>
+
+      <ul>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/elpedia-arthur-3767b8152"
+            alt="LinkedIn"
+            target="_blank"
+            ><img
+              class="socialMedia"
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/100/550/original/linkedin-square-logo-24.png?1697298841"
+              alt="LinkedIn"
+          /></a>
+        </li>
+        <li>
+          <a
+            href="https://instagram.com/elpediaarthurjunior?igshid=OGQ5ZDc2ODk2ZA=="
+            alt="Instagram"
+            target="_blank"
+            ><img
+              class="socialMedia"
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/100/549/original/instagram-alt-logo-24.png?1697298723"
+              alt="Instagram"
+          /></a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com/ElpediaJArthur"
+            alt="twitter"
+            target="_blank"
+            ><img
+              class="socialMedia"
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/100/551/original/twitter.png?1697298869"
+              alt="twitter"
+          /></a>
+        </li>
+        <li>
+          <a
+            href="https://www.facebook.com/elpedia.arthurjunior"
+            alt="facebook"
+            target="_blank"
+            ><img
+              class="socialMedia"
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/100/548/original/facebook.png?1697298710"
+              alt="facebook"
+          /></a>
+        </li>
+      </ul>
+      <div class="food-section">
+        <img
+          class="food"
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/100/443/original/banku_only.jpeg?1697240638"
+          alt="Banku balls"
+        />
+        <img
+          class="food"
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/100/444/original/okro-soup.jpg?1697240660"
+          alt="Okro Soup"
+        />
+        <img
+          class="food"
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/100/543/original/okro-soup2.jpg?1697296229"
+          alt="Banku & Okro Soup"
+        />
+      </div>
+      <hr />
+      <p class="banku">
+        Banku is a staple food in Ghana, prepared from fermented corn and
+        cassava dough. It has a soft and slightly elastic texture, similar to a
+        dumpling or dough ball. The fermentation process gives banku its
+        distinctive sour taste. It is usually consumed with Okro Soup which is a
+        delightful😋 and slimy soup made from fresh okra pods. It is a wholesome
+        and nutritious dish that combines the flavors of okra, vegetables, and
+        typically a protein source, such as fish, meat, or seafood. Okra's
+        natural thickening properties give the soup its characteristic slimy
+        texture, which is beloved by many especially me 😇.
+      </p>
+      <br /><br />
+      <h1>Preparation and Presentation.</h1>
+      <p>
+        Banku and Okro Soup are often served together, creating a harmonious
+        pairing of flavors and textures. The preparation of this dish involves
+        several steps:
+      </p>
+      <div>
+        <ol>
+          <li>
+            <strong>Banku Preparation: </strong>To make banku, corn and cassava
+            dough are mixed with water and cooked until it reaches a dough-like
+            consistency. The dough is then fermented for a few days to develop
+            its sour taste.
+          </li>
+          <li>
+            <strong>Okro Soup Preparation: </strong>Okro pods are sliced and
+            combined with ingredients like tomatoes, onions, chili peppers, and
+            various proteins, depending on personal preference. The mixture is
+            cooked until the okra is tender, and the soup thickens naturally.
+          </li>
+          <li>
+            <strong>Serving: </strong>Banku is shaped into small, doughy balls
+            and served with okro soup poured over it. The soup clings to the
+            banku, creating a delightful contrast of textures and flavors.
+          </li>
+        </ol>
+      </div>
+      <hr />
+      <br />
+      <div class="sign-up">
+        <span class="text">Sign Up </span
+        ><span class="updates"
+          ><strong>for more Updates like this</strong></span
+        >
+        <button>👉🏾👉🏾click here</button>
+        <h3></h3>
+      </div>
+      <footer>
+        <img
+          class="author"
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/100/596/original/Profile.jpg?1697304169"
+          alt="Author's Picture"
+        />
+        <p class="regards">
+          <strong>Hope you enjoyed reading this. </strong
+          ><em>Bye for NOW!! ✌️✌️✌️</em>
+        </p>
+        <h6>Thanks to</h6>
+        <img
+          class="sheCodesLogo"
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/100/620/original/sheCodes.png?1697320826"
+          alt="SheCodes"
+        />
+      </footer>
+    </div>
+    <script>
+      let h_3 = document.querySelector("h3");
+      function getUpdate() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email?");
+        alert(`Thank you ${name}! Answer a few more questions`);
+        let eatBanku = prompt("Have you tried Banku before?? Yes / No");
+        if (eatBanku === "Yes" || eatBanku === "YES" || eatBanku === "yes") {
+          h_3.innerHTML = `🙌🏿🙌I Thought As Much ${name}. We will stay in touch Anyways`;
+        } else {
+          h_3.innerHTML = `😞😞You've missed out on a lot ${name}. But we will get you up to TASTE`;
+        }
+      }
+      let getUpdateButton = document.querySelector("button");
+      getUpdateButton.addEventListener("click", getUpdate);
+    </script>
+  </body>
+</html>
